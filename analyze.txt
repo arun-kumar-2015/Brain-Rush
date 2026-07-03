@@ -1,0 +1,320 @@
+Analyzing Brain Rush...                                         
+
+warning - Unused import: 'screens/home_screen.dart' - lib\main.dart:6:8 - unused_import
+   info - Dangling library doc comment - lib\models\comprehension_question_model.dart:1:1 - dangling_library_doc_comments
+  error - Const constructors can't have a body - lib\models\comprehension_question_model.dart:20:6 - const_constructor_with_body
+   info - The imported package 'equatable' isn't a dependency of the importing package - lib\models\reading_progress_model.dart:2:8 - depend_on_referenced_packages
+  error - Missing concrete implementation of 'getter abstract class Equatable.props' - lib\models\reading_progress_model.dart:27:7 - non_abstract_class_inherits_abstract_member
+  error - Invalid constant value - lib\models\reading_progress_model.dart:97:25 - invalid_constant
+  error - '_validate' isn't a field in the enclosing class - lib\models\reading_progress_model.dart:98:9 - initializer_for_non_existent_field
+  error - Expected an assignment after the field name - lib\models\reading_progress_model.dart:98:9 - missing_assignment_in_initializer
+  error - Invalid constant value - lib\models\reading_progress_model.dart:98:18 - invalid_constant
+warning - The declaration '_validate' isn't referenced - lib\models\reading_progress_model.dart:102:8 - unused_element
+  error - Undefined name 'storyId' - lib\models\reading_progress_model.dart:103:9 - undefined_identifier
+  error - Undefined name 'userId' - lib\models\reading_progress_model.dart:104:9 - undefined_identifier
+  error - Undefined name 'progressPercentage' - lib\models\reading_progress_model.dart:105:9 - undefined_identifier
+  error - Undefined name 'progressPercentage' - lib\models\reading_progress_model.dart:105:37 - undefined_identifier
+  error - Undefined name 'currentPage' - lib\models\reading_progress_model.dart:108:9 - undefined_identifier
+  error - Undefined name 'currentSentence' - lib\models\reading_progress_model.dart:109:9 - undefined_identifier
+  error - Undefined name 'readingTimeMinutes' - lib\models\reading_progress_model.dart:110:9 - undefined_identifier
+  error - Undefined name 'comprehensionScore' - lib\models\reading_progress_model.dart:111:9 - undefined_identifier
+  error - Undefined name 'comprehensionScore' - lib\models\reading_progress_model.dart:111:37 - undefined_identifier
+  error - Undefined name 'coinsEarned' - lib\models\reading_progress_model.dart:114:9 - undefined_identifier
+  error - Undefined name 'xpEarned' - lib\models\reading_progress_model.dart:115:9 - undefined_identifier
+  error - Undefined name 'streakCount' - lib\models\reading_progress_model.dart:116:9 - undefined_identifier
+  error - Undefined name 'sessionsCompleted' - lib\models\reading_progress_model.dart:117:9 - undefined_identifier
+  error - Undefined name 'wordsRead' - lib\models\reading_progress_model.dart:118:9 - undefined_identifier
+  error - Undefined name 'completed' - lib\models\reading_progress_model.dart:119:9 - undefined_identifier
+  error - Undefined name 'completedAt' - lib\models\reading_progress_model.dart:120:11 - undefined_identifier
+  error - Undefined name 'completedAt' - lib\models\reading_progress_model.dart:124:11 - undefined_identifier
+  error - Expected a method, getter, setter or operator declaration - lib\models\reading_progress_model.dart:129:3 - expected_executable
+  error - Top-level declarations can't be declared to be 'factory' - lib\models\reading_progress_model.dart:132:3 - factory_top_level_declaration
+   info - The variable name 'ReadingProgress' isn't a lowerCamelCase identifier - lib\models\reading_progress_model.dart:132:11 - non_constant_identifier_names
+  error - Functions must have an explicit list of parameters - lib\models\reading_progress_model.dart:132:11 - missing_function_parameters
+  error - The name 'ReadingProgress' is already defined - lib\models\reading_progress_model.dart:132:11 - duplicate_definition
+  error - A function body must be provided - lib\models\reading_progress_model.dart:132:26 - missing_function_body
+  error - Expected a method, getter, setter or operator declaration - lib\models\reading_progress_model.dart:132:26 - expected_executable
+  error - The named parameter 'storyId' isn't defined - lib\models\reading_progress_model.dart:133:9 - undefined_named_parameter
+  error - The named parameter 'userId' isn't defined - lib\models\reading_progress_model.dart:134:9 - undefined_named_parameter
+  error - The named parameter 'progressPercentage' isn't defined - lib\models\reading_progress_model.dart:135:9 - undefined_named_parameter
+  error - The named parameter 'currentPage' isn't defined - lib\models\reading_progress_model.dart:136:9 - undefined_named_parameter
+  error - The named parameter 'currentSentence' isn't defined - lib\models\reading_progress_model.dart:137:9 - undefined_named_parameter
+  error - The named parameter 'readingTimeMinutes' isn't defined - lib\models\reading_progress_model.dart:138:9 - undefined_named_parameter
+  error - The named parameter 'completed' isn't defined - lib\models\reading_progress_model.dart:139:9 - undefined_named_parameter
+  error - The named parameter 'lastReadAt' isn't defined - lib\models\reading_progress_model.dart:140:9 - undefined_named_parameter
+  error - The named parameter 'completedAt' isn't defined - lib\models\reading_progress_model.dart:141:9 - undefined_named_parameter
+  error - The named parameter 'comprehensionScore' isn't defined - lib\models\reading_progress_model.dart:142:9 - undefined_named_parameter
+  error - The named parameter 'coinsEarned' isn't defined - lib\models\reading_progress_model.dart:143:9 - undefined_named_parameter
+  error - The named parameter 'xpEarned' isn't defined - lib\models\reading_progress_model.dart:144:9 - undefined_named_parameter
+  error - The named parameter 'readingLevel' isn't defined - lib\models\reading_progress_model.dart:145:9 - undefined_named_parameter
+  error - The named parameter 'streakCount' isn't defined - lib\models\reading_progress_model.dart:146:9 - undefined_named_parameter
+  error - The named parameter 'sessionsCompleted' isn't defined - lib\models\reading_progress_model.dart:147:9 - undefined_named_parameter
+  error - The named parameter 'wordsRead' isn't defined - lib\models\reading_progress_model.dart:148:9 - undefined_named_parameter
+  error - The named parameter 'unlockedBadges' isn't defined - lib\models\reading_progress_model.dart:149:9 - undefined_named_parameter
+  error - Undefined name 'storyId' - lib\models\reading_progress_model.dart:153:20 - undefined_identifier
+  error - Undefined name 'userId' - lib\models\reading_progress_model.dart:154:19 - undefined_identifier
+  error - Undefined name 'progressPercentage' - lib\models\reading_progress_model.dart:155:31 - undefined_identifier
+  error - Undefined name 'currentPage' - lib\models\reading_progress_model.dart:156:24 - undefined_identifier
+  error - Undefined name 'currentSentence' - lib\models\reading_progress_model.dart:157:28 - undefined_identifier
+  error - Undefined name 'readingTimeMinutes' - lib\models\reading_progress_model.dart:158:31 - undefined_identifier
+  error - Undefined name 'completed' - lib\models\reading_progress_model.dart:159:22 - undefined_identifier
+  error - Undefined name 'lastReadAt' - lib\models\reading_progress_model.dart:160:23 - undefined_identifier
+  error - Undefined name 'completedAt' - lib\models\reading_progress_model.dart:161:24 - undefined_identifier
+  error - Undefined name 'comprehensionScore' - lib\models\reading_progress_model.dart:162:31 - undefined_identifier
+  error - Undefined name 'coinsEarned' - lib\models\reading_progress_model.dart:163:24 - undefined_identifier
+  error - Undefined name 'xpEarned' - lib\models\reading_progress_model.dart:164:21 - undefined_identifier
+  error - Undefined name 'readingLevel' - lib\models\reading_progress_model.dart:165:47 - undefined_identifier
+  error - Undefined name 'streakCount' - lib\models\reading_progress_model.dart:166:24 - undefined_identifier
+  error - Undefined name 'sessionsCompleted' - lib\models\reading_progress_model.dart:167:30 - undefined_identifier
+  error - Undefined name 'wordsRead' - lib\models\reading_progress_model.dart:168:22 - undefined_identifier
+  error - Undefined name 'unlockedBadges' - lib\models\reading_progress_model.dart:169:27 - undefined_identifier
+  error - ReadingProgress isn't a type - lib\models\reading_progress_model.dart:174:3 - not_a_type
+  error - The named parameter 'storyId' isn't defined - lib\models\reading_progress_model.dart:194:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:194:29 - invalid_reference_to_this
+  error - The named parameter 'userId' isn't defined - lib\models\reading_progress_model.dart:195:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:195:27 - invalid_reference_to_this
+  error - The named parameter 'progressPercentage' isn't defined - lib\models\reading_progress_model.dart:196:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:196:51 - invalid_reference_to_this
+  error - The named parameter 'currentPage' isn't defined - lib\models\reading_progress_model.dart:197:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:197:37 - invalid_reference_to_this
+  error - The named parameter 'currentSentence' isn't defined - lib\models\reading_progress_model.dart:198:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:198:45 - invalid_reference_to_this
+  error - The named parameter 'readingTimeMinutes' isn't defined - lib\models\reading_progress_model.dart:199:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:199:51 - invalid_reference_to_this
+  error - The named parameter 'completed' isn't defined - lib\models\reading_progress_model.dart:200:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:200:33 - invalid_reference_to_this
+  error - The named parameter 'lastReadAt' isn't defined - lib\models\reading_progress_model.dart:201:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:201:35 - invalid_reference_to_this
+  error - The named parameter 'completedAt' isn't defined - lib\models\reading_progress_model.dart:202:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:202:37 - invalid_reference_to_this
+  error - The named parameter 'comprehensionScore' isn't defined - lib\models\reading_progress_model.dart:203:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:203:51 - invalid_reference_to_this
+  error - The named parameter 'coinsEarned' isn't defined - lib\models\reading_progress_model.dart:204:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:204:37 - invalid_reference_to_this
+  error - The named parameter 'xpEarned' isn't defined - lib\models\reading_progress_model.dart:205:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:205:31 - invalid_reference_to_this
+  error - The named parameter 'readingLevel' isn't defined - lib\models\reading_progress_model.dart:206:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:206:39 - invalid_reference_to_this
+  error - The named parameter 'streakCount' isn't defined - lib\models\reading_progress_model.dart:207:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:207:37 - invalid_reference_to_this
+  error - The named parameter 'sessionsCompleted' isn't defined - lib\models\reading_progress_model.dart:208:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:208:49 - invalid_reference_to_this
+  error - The named parameter 'wordsRead' isn't defined - lib\models\reading_progress_model.dart:209:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:209:33 - invalid_reference_to_this
+  error - The named parameter 'unlockedBadges' isn't defined - lib\models\reading_progress_model.dart:210:9 - undefined_named_parameter
+  error - Invalid reference to 'this' expression - lib\models\reading_progress_model.dart:210:43 - invalid_reference_to_this
+  error - Undefined name 'storyId' - lib\models\reading_progress_model.dart:215:9 - undefined_identifier
+  error - Undefined name 'userId' - lib\models\reading_progress_model.dart:216:9 - undefined_identifier
+  error - Undefined name 'progressPercentage' - lib\models\reading_progress_model.dart:217:9 - undefined_identifier
+  error - Undefined name 'currentPage' - lib\models\reading_progress_model.dart:218:9 - undefined_identifier
+  error - Undefined name 'currentSentence' - lib\models\reading_progress_model.dart:219:9 - undefined_identifier
+  error - Undefined name 'readingTimeMinutes' - lib\models\reading_progress_model.dart:220:9 - undefined_identifier
+  error - Undefined name 'completed' - lib\models\reading_progress_model.dart:221:9 - undefined_identifier
+  error - Undefined name 'lastReadAt' - lib\models\reading_progress_model.dart:222:9 - undefined_identifier
+  error - Undefined name 'completedAt' - lib\models\reading_progress_model.dart:223:9 - undefined_identifier
+  error - Undefined name 'comprehensionScore' - lib\models\reading_progress_model.dart:224:9 - undefined_identifier
+  error - Undefined name 'coinsEarned' - lib\models\reading_progress_model.dart:225:9 - undefined_identifier
+  error - Undefined name 'xpEarned' - lib\models\reading_progress_model.dart:226:9 - undefined_identifier
+  error - Undefined name 'readingLevel' - lib\models\reading_progress_model.dart:227:9 - undefined_identifier
+  error - Undefined name 'streakCount' - lib\models\reading_progress_model.dart:228:9 - undefined_identifier
+  error - Undefined name 'sessionsCompleted' - lib\models\reading_progress_model.dart:229:9 - undefined_identifier
+  error - Undefined name 'wordsRead' - lib\models\reading_progress_model.dart:230:9 - undefined_identifier
+  error - Undefined name 'unlockedBadges' - lib\models\reading_progress_model.dart:231:9 - undefined_identifier
+  error - Expected a method, getter, setter or operator declaration - lib\models\reading_progress_model.dart:233:1 - expected_executable
+  error - Const constructors can't have a body - lib\models\reading_stats_model.dart:19:6 - const_constructor_with_body
+  error - Const constructors can't have a body - lib\models\reading_streak_model.dart:15:6 - const_constructor_with_body
+  error - Const constructors can't have a body - lib\models\story_category_model.dart:13:6 - const_constructor_with_body
+   info - Dangling library doc comment - lib\models\story_model.dart:1:1 - dangling_library_doc_comments
+  error - Const constructors can't have a body - lib\models\story_model.dart:33:6 - const_constructor_with_body
+   info - Unnecessary 'this.' qualifier - lib\models\user_model.dart:52:12 - unnecessary_this
+   info - Unnecessary 'this.' qualifier - lib\models\user_model.dart:53:14 - unnecessary_this
+   info - Don't invoke 'print' in production code - lib\providers\auth_provider.dart:36:7 - avoid_print
+warning - Unused import: '../../utils/theme.dart' - lib\screens\games\pattern_game.dart:8:8 - unused_import
+warning - Unused import: 'package:flutter_animate/flutter_animate.dart' - lib\screens\games\pattern_game.dart:9:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\games\pattern_game.dart:164:76 - deprecated_member_use
+   info - The private field _stopwatch could be 'final' - lib\screens\games\reaction_game.dart:21:13 - prefer_final_fields
+warning - Unused import: '../widgets/game_card.dart' - lib\screens\home_screen.dart:6:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:155:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:157:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:198:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\home_screen.dart:200:43 - deprecated_member_use
+warning - The value of the local variable 'isTop3' isn't used - lib\screens\leaderboard_screen.dart:33:21 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:193:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:194:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:200:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:282:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:310:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:435:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:435:66 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:484:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:486:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\alphabet_learning_screen.dart:519:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\english_hub_screen.dart:35:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\phonics_practice_screen.dart:171:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\phonics_practice_screen.dart:172:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\phonics_practice_screen.dart:172:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\phonics_practice_screen.dart:176:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\english\phonics_practice_screen.dart:179:46 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\screens\learning_hub\english\pronunciation_practice_screen.dart:11:9 - use_super_parameters
+  error - Undefined name 'SharedPreferences' - lib\screens\learning_hub\english\pronunciation_practice_screen.dart:57:25 - undefined_identifier
+  error - The named parameter 'onPressed' is required, but there's no corresponding argument - lib\screens\learning_hub\english\pronunciation_practice_screen.dart:88:13 - missing_required_argument
+  error - The named parameter 'onPressed' isn't defined - lib\screens\learning_hub\english\pronunciation_practice_screen.dart:96:15 - undefined_named_parameter
+  error - Expected an identifier - lib\screens\learning_hub\english\pronunciation_practice_screen.dart:99:13 - missing_identifier
+  error - Expected to find ')' - lib\screens\learning_hub\english\pronunciation_practice_screen.dart:99:13 - expected_token
+  error - Expected to find ',' - lib\screens\learning_hub\english\pronunciation_practice_screen.dart:99:13 - expected_token
+  error - The name 'ParentDashboardScreen' isn't a class - lib\screens\learning_hub\learning_hub_screen.dart:71:85 - creation_with_non_type
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\learning_hub_screen.dart:86:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\learning_hub_screen.dart:88:43 - deprecated_member_use
+  error - The operator '[]' isn't defined for the type 'ComprehensionQuestion' - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:30:71 - undefined_operator
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:115:43 - deprecated_member_use
+  error - The operator '[]' isn't defined for the type 'ComprehensionQuestion' - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:174:25 - undefined_operator
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:200:39 - deprecated_member_use
+  error - The operator '[]' isn't defined for the type 'ComprehensionQuestion' - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:204:20 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'ComprehensionQuestion' - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:213:32 - undefined_operator
+  error - The operator '[]' isn't defined for the type 'ComprehensionQuestion' - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:215:41 - undefined_operator
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:220:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:225:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\comprehension_quiz_screen.dart:228:48 - deprecated_member_use
+  error - The method 'getProgress' isn't defined for the type 'StoryService' - lib\screens\learning_hub\reading\story_list_screen.dart:38:51 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_list_screen.dart:117:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_list_screen.dart:131:65 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_list_screen.dart:131:97 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_list_screen.dart:167:68 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_list_screen.dart:167:100 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_list_screen.dart:211:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_list_screen.dart:234:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_list_screen.dart:264:88 - deprecated_member_use
+  error - The method 'getProgress' isn't defined for the type 'StoryService' - lib\screens\learning_hub\reading\story_reader_screen.dart:45:39 - undefined_method
+  error - The method 'saveProgress' isn't defined for the type 'StoryService' - lib\screens\learning_hub\reading\story_reader_screen.dart:104:19 - undefined_method
+  error - The method 'saveProgress' isn't defined for the type 'StoryService' - lib\screens\learning_hub\reading\story_reader_screen.dart:118:21 - undefined_method
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_reader_screen.dart:206:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_reader_screen.dart:207:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_reader_screen.dart:207:90 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\reading\story_reader_screen.dart:314:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\daily_words_screen.dart:126:44 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\learning_hub\vocabulary\daily_words_screen.dart:227:42 - use_build_context_synchronously
+   info - The private field _typedLetters could be 'final' - lib\screens\learning_hub\vocabulary\spelling_challenges_screen.dart:26:16 - prefer_final_fields
+   info - Don't use 'BuildContext's across async gaps - lib\screens\learning_hub\vocabulary\spelling_challenges_screen.dart:81:34 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\screens\learning_hub\vocabulary\spelling_challenges_screen.dart:87:27 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\spelling_challenges_screen.dart:168:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\spelling_challenges_screen.dart:213:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\vocabulary_hub_screen.dart:45:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\vocabulary_hub_screen.dart:49:31 - deprecated_member_use
+   info - The private field _matchedWords could be 'final' - lib\screens\learning_hub\vocabulary\word_matching_screen.dart:29:15 - prefer_final_fields
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\word_matching_screen.dart:157:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\word_matching_screen.dart:159:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\word_matching_screen.dart:160:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\word_matching_screen.dart:207:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\word_matching_screen.dart:209:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\vocabulary\word_matching_screen.dart:210:58 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\screens\learning_hub\writing\creative_writing_screen.dart:61:30 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\creative_writing_screen.dart:133:44 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\creative_writing_screen.dart:155:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\creative_writing_screen.dart:182:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\creative_writing_screen.dart:200:80 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\creative_writing_screen.dart:239:41 - deprecated_member_use
+   info - The private field _points could be 'final' - lib\screens\learning_hub\writing\letter_tracing_screen.dart:14:17 - prefer_final_fields
+   info - The private field _penWidth could be 'final' - lib\screens\learning_hub\writing\letter_tracing_screen.dart:16:10 - prefer_final_fields
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\letter_tracing_screen.dart:91:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\letter_tracing_screen.dart:96:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\letter_tracing_screen.dart:167:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\letter_tracing_screen.dart:239:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\letter_tracing_screen.dart:273:31 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\sentence_writing_screen.dart:124:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\sentence_writing_screen.dart:177:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\word_writing_screen.dart:128:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\word_writing_screen.dart:130:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\word_writing_screen.dart:176:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\writing_hub_screen.dart:53:24 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\learning_hub\writing\writing_hub_screen.dart:55:43 - deprecated_member_use
+   info - Unnecessary use of 'toList' in a spread - lib\screens\progress_screen.dart:81:16 - unnecessary_to_list_in_spreads
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\splash_screen.dart:50:52 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\services\audio_service.dart:51:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\audio_service.dart:56:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\audio_service.dart:61:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\audio_service.dart:66:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\audio_service.dart:73:7 - avoid_print
+warning - Unused import: '../models/user_model.dart' - lib\services\auth_service.dart:3:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:17:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:41:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\auth_service.dart:79:7 - avoid_print
+warning - Unused import: '../models/user_model.dart' - lib\services\firestore_service.dart:2:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\firestore_service.dart:55:7 - avoid_print
+   info - 'listenFor' is deprecated and shouldn't be used. Use SpeechListenOptions.listenFor instead - lib\services\speech_recognition_service.dart:32:7 - deprecated_member_use
+   info - 'pauseFor' is deprecated and shouldn't be used. Use SpeechListenOptions.pauseFor instead - lib\services\speech_recognition_service.dart:33:7 - deprecated_member_use
+   info - 'partialResults' is deprecated and shouldn't be used. Use SpeechListenOptions.partialResults instead - lib\services\speech_recognition_service.dart:34:7 - deprecated_member_use
+   info - 'localeId' is deprecated and shouldn't be used. Use SpeechListenOptions.localeId instead - lib\services\speech_recognition_service.dart:35:7 - deprecated_member_use
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:18:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:40:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:45:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:55:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:67:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:88:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:93:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:103:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:115:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:135:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:140:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:145:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:157:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:178:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:188:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:198:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:210:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:228:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:233:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:243:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:255:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:275:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:280:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:285:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:297:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:319:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:324:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:329:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:337:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:357:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:362:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:369:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:387:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:392:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:399:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:417:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:422:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:429:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:445:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:450:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:457:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:476:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:481:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:488:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:505:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:510:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:517:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:533:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:538:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:545:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:565:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:570:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:577:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:593:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:598:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:605:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:622:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:627:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:634:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:652:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:657:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:664:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:681:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:686:9 - list_element_type_not_assignable
+  error - The named parameter 'ageGroup' is required, but there's no corresponding argument - lib\services\story_service.dart:693:5 - missing_required_argument
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:711:9 - list_element_type_not_assignable
+  error - The element type 'Map<String, Object>' can't be assigned to the list type 'ComprehensionQuestion' - lib\services\story_service.dart:716:9 - list_element_type_not_assignable
+  error - The name 'ReadingProgress' isn't a type, so it can't be used as a type argument - lib\services\story_service.dart:745:10 - non_type_as_type_argument
+  error - Undefined name 'ReadingProgress' - lib\services\story_service.dart:750:12 - undefined_identifier
+  error - Undefined class 'ReadingProgress' - lib\services\story_service.dart:753:36 - undefined_class
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\widgets\game_card.dart:31:30 - deprecated_member_use
+  error - The name 'MyApp' isn't a class - test\widget_test.dart:16:35 - creation_with_non_type
+
+316 issues found. (ran in 2.5s)
