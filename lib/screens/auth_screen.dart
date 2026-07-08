@@ -128,7 +128,19 @@ class _AuthScreenState extends State<AuthScreen> {
                         ).animate().scale(delay: 300.ms),
                         const SizedBox(height: 16),
                         OutlinedButton.icon(
-                          onPressed: auth.isLoading ? null : () => auth.loginWithGoogle(),
+                          onPressed: auth.isLoading
+                              ? null
+                              : () async {
+                                  String? error = await auth.loginWithGoogle();
+                                  if (error != null && mounted) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                        content: Text('Google Sign-In failed: $error'),
+                                        duration: const Duration(seconds: 5),
+                                      ),
+                                    );
+                                  }
+                                },
                           icon: const Icon(Icons.g_mobiledata, size: 32),
                           label: const Text('Continue with Google'),
                           style: OutlinedButton.styleFrom(

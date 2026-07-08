@@ -58,13 +58,19 @@ class AuthProvider with ChangeNotifier {
     return res != null;
   }
 
-  Future<bool> loginWithGoogle() async {
+  Future<String?> loginWithGoogle() async {
     _isLoading = true;
     notifyListeners();
-    UserCredential? res = await _authService.signInWithGoogle();
-    _isLoading = false;
-    notifyListeners();
-    return res != null;
+    try {
+      await _authService.signInWithGoogle();
+      _isLoading = false;
+      notifyListeners();
+      return null; // success
+    } catch (e) {
+      _isLoading = false;
+      notifyListeners();
+      return e.toString();
+    }
   }
 
   Future<void> logout() async {

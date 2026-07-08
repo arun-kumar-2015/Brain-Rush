@@ -48,7 +48,7 @@ class AuthService {
     try {
       final GoogleSignIn googleSignIn = GoogleSignIn();
       final GoogleSignInAccount? googleUser = await googleSignIn.signIn();
-      if (googleUser == null) return null;
+      if (googleUser == null) throw Exception("Google Sign-In was cancelled by the user.");
 
       final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
       final AuthCredential credential = GoogleAuthProvider.credential(
@@ -77,7 +77,7 @@ class AuthService {
       return result;
     } catch (e) {
       print(e.toString());
-      return null;
+      throw Exception(e.toString());
     }
   }
 
